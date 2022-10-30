@@ -1,0 +1,67 @@
+.headertitle{
+    display: inline-flex;
+    align-items: left;
+    justify-content: center;
+    width: 10%;
+    height: 5%;
+    background-color: blue;
+    color: white;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float: left;
+    position:static;
+}
+
+.header{
+    display:inline-flex;
+    width: 90%;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    position: static;
+    float: right;
+}
+
+body{
+    margin: 0%;
+}
+
+aside{
+    width: 10%;
+    height: 100%;
+    top: 5%;
+    background-color: blue;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    position:absolute;
+}
+
+aside > p{
+    color:white;
+    width: 90%;
+    position:static;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float: left;
+}
+
+aside button{
+    width: 100%;
+}
+
+.pDatabase{
+    color:white;
+    text-align: left;
+    display: none;
+}
+
+content{
+    left: 10%;
+    position:absolute;
+    float: left;
+}
