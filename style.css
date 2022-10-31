@@ -28,13 +28,22 @@
     float: right;
 }
 
+.searchtitle{
+    position: relative;
+    padding: 5px;
+}
+
+.searchbox{
+    position: relative;
+}
+
 body{
     margin: 0%;
 }
 
 aside{
     width: 10%;
-    height: 100%;
+    height: 95%;
     top: 5%;
     background-color: blue;
     margin: 0;
@@ -78,9 +87,36 @@ aside a:hover{
     display: none;
 }
 
-content{
+main{
+    position:fixed;
+    
+    top: 5%;
     left: 10%;
-    top: 7%;
-    position:absolute;
-    float: left;
+    width: 90%;
+    height: 95%;
+    display: flex;
+}
+
+.card{
+    position:relative;
+    display: flex;
+    width: 20%;
+    height: 20%;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    padding: 20px;
+    background-color: lightgray;
+    background-clip: content-box;
+    border: 10px;
+    border-radius: 40px;
+    border-width: 10px;
+    border-color: black;
+}
+
+.cardtitle{
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
