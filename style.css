@@ -4,7 +4,7 @@
 
 .headertitle{
     display: inline-flex;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     width: 10%;
     height: 5%;
@@ -75,7 +75,6 @@ aside a:hover{
 }
 .pDatabase{
     color:white;
-    text-align: left;
     display: none;
 }
 
